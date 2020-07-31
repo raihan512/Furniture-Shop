@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranga&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ranga', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+.navbar,
+.navbar-brand,
+.navbar-nav,
+.nav-item,
+.nav-link {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Part Start*/
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(145, 189, 62, 0.4);
+}
+
+.header .navbar-brand {
+
+    margin-bottom: -60px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff !important;
+    padding: 48px 18px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+    background-color: #2f802d;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background-color: #2f802d !important;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(145, 189, 62, 0.9);
+    z-index: 999;
+}
+
+/*Header Part End*/
+/*Banner Part Start*/
+.banner {
+    position: relative;
+    background: url(../images/banner.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.banner .banner-overlay {
+    height: 100vh;
+    background-color: rgba(2, 2, 2, 0.4);
+}
+
+.banner .banner-overlay .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.banner .banner-overlay .banner-content h1 {
+    font-family: 'Ranga', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Banner Part End*/
+/*Slider Part Start*/
+.slider {
+    padding: 85px 0px;
+}
+
+.slider .slider-content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.slider .slider-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.slider .carousel-indicators {
+    right: 90%;
+    bottom: 20%;
+    display: inline;
+    left: 80%;
+}
+
+.slider .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.slider .carousel-indicators li:hover,
+.slider .carousel-indicators li.active {
+    background-color: #000000;
+}
+
+/*Slider Part End*/
+/*Footer Part Start*/
+.footer {
+    padding: 115px 0px 55px;
+    background-color: #fda306;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-middle {
+    text-align: center;
+}
+
+.footer-middle .footer-logo {
+    margin-bottom: 100px;
+}
+
+.footer-middle .footer-nav ul li {
+    display: inline;
+}
+
+.footer-middle .footer-nav ul li a {
+    font-family: 'Ranga', cursive;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 100px 15px 0px;
+    font-size: 16px;
+}
+
+
+.footer-right .social-link {
+    font-family: 'Ranga', cursive !important;
+    font-weight: 400;
+    font-size: 30px !important;
+    margin-top: 55px;
+    position: relative;
+}
+
+.footer-right .social-link::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 1px;
+    background-color: #fed183;
+}
+
+.footer-right ul li {
+    float: left;
+    padding: 10px 7px;
+}
+
+.footer-right ul li a {
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.footer-right ul li a:hover {
+    color: #3841e4;
+}
+
+/*Footer Part End*/
