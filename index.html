@@ -1,272 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sunvelly</title>
-    <!--Favicon-->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
-    <!--External Stylesheet-->
+    <title>Furniture Shop</title>
     <link rel="stylesheet" href="css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/xzoom.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-  </head>
+</head>
 
-  <body data-spy="scroll" data-target=".navbar">
-    <!--Header Part Start-->
-    <header class="header">
-      <nav class="navbar navbar-expand-md navbar-dark">
+<body>
+    <div class="header-top">
         <div class="container">
-          <!--Navbar Logo-->
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.png" class="img-fluid w-100" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="header-logo d-flex justify-content-between">
+                        <a href="index.html">
+                            <img src="images/logo.png" class="img-fluid" alt="logo" />
+                            Furniture<span>shop</span>
+                        </a>
+                        <div class="menu-button">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-md-2 col-md-7 col-12">
+                    <div class="mainmenu">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Showrooms</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li>
+                                <p>Hotline : <span>+88 02 9002225</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!--Menu-->
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">connect with Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!--Header Part End-->
-    <!--Banner Part Start-->
-    <div class="banner" id="home">
-      <div class="banner-overlay">
-        <div class="banner-content">
-          <h1>
-            Welcome to SUNVALLEY <br />
-            please dive in
-          </h1>
-        </div>
-      </div>
+    <!--Facebook-->
+    <div class="facebook">
+        <a href="facebook.com" target="_link">facebook</a>
     </div>
-    <!--Banner Part End-->
-    <!--Slider Part Start-->
-    <div class="slider sticky-menu" id="about">
-      <div class="container">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <!--Slider Item-->
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-lg-7 col-md-5">
-                  <div class="slider-img">
-                    <img
-                      src="images/slider1.png"
-                      class="w-100 img-fluid"
-                      alt=""
-                    />
-                  </div>
+
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="categories">
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#">BEDROOM</a></li>
+                            <li><a href="#">LIVING</a></li>
+                            <li><a href="#">DINING</a></li>
+                            <li><a href="#">READING</a></li>
+                            <li><a href="#">OFFICE</a></li>
+                            <li><a href="#">MISCELLANEOUS</a></li>
+                            <li><a href="#">DOOR</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-7">
-                  <div class="slider-content">
-                    <h2>latest news</h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries,
-                    </p>
-                  </div>
+                <div class="offset-md-1 col-md-2">
+                    <div class="searchbar">
+                        <input type="search" placeholder="search" class="form-control" />
+                        <i class="fas fa-search"></i>
+                    </div>
                 </div>
-              </div>
             </div>
-            <!--Slider Item-->
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-7 col-md-5">
-                  <div class="slider-img">
-                    <img
-                      src="images/slider1.png"
-                      class="w-100 img-fluid"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-7">
-                  <div class="slider-content">
-                    <h2>latest news</h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries,
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--Slider Item-->
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-7 col-md-5">
-                  <div class="slider-img">
-                    <img
-                      src="images/slider1.png"
-                      class="w-100 img-fluid"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-7">
-                  <div class="slider-content">
-                    <h2>latest news</h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries,
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--Slider Item-->
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-7 col-md-5">
-                  <div class="slider-img">
-                    <img
-                      src="images/slider1.png"
-                      class="w-100 img-fluid"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-7">
-                  <div class="slider-content">
-                    <h2>latest news</h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries,
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--Slider Item-->
-          </div>
         </div>
-      </div>
     </div>
-    <!--Slider Part End-->
-    <!--Footer Part Start-->
-    <footer class="footer" id="contact">
-      <div class="container">
-        <div class="row">
-          <!--Footer Left-->
-          <div class="col-md-4">
-            <div class="footer-left">
-              <p>
-                &copy;all right reserved SUNVALLEY 2018
-              </p>
+
+    <!--Hero Area-->
+    <div class="hero-area">
+        <div class="container">
+            <div class="hero-cover owl-carousel">
+                <div class="hero-item">
+                    <img src="images/hero-bg.jpg" class="img-fluid w-100" alt="" />
+                </div>
+                <div class="hero-item">
+                    <img src="images/hero-bg-2.jpg" class="img-fluid w-100" alt="" />
+                </div>
+                <div class="hero-item">
+                    <img src="images/hero-bg.jpg" class="img-fluid w-100" alt="" />
+                </div>
             </div>
-          </div>
-          <!--Footer Middle-->
-          <div class="col-md-5">
-            <div class="footer-middle">
-              <div class="footer-logo">
-                <a href="index.html">
-                  <img src="images/footerLogo.png" alt="footerLogo.png" />
-                </a>
-              </div>
-              <div class="footer-nav">
-                <ul>
-                  <li>
-                    <a href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">Products</a>
-                  </li>
-                  <li>
-                    <a href="#about">About Us</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Connect with Us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--Footer Right-->
-          <div class="col-md-3">
-            <div class="footer-right">
-              <p>Sunvally Ltd. some where in the earth Bangladesh.</p>
-              <p>
-                Phone: +880 1234 567 890
-              </p>
-              <p class="social-link">Get connected</p>
-              <ul>
-                <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
-    </footer>
-    <!--Footer Part End-->
-    <!--Javascript Files-->
-    <script src="js/jquery-3.5.1.min.js"></script>
+    </div>
+    <!--Our Products-->
+    <div class="our-product section-padding">
+        <div class="container">
+            <div class="section-title d-flex justify-content-between">
+                <h2>our products</h2>
+                <a href="#">view all <i class="fas fa-chevron-right ml-2"></i></a>
+            </div>
+            <div class="product-cover">
+                <div class="row">
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item-2" onclick="document.location='details.html'">
+                            <img src="images/our-product/pro-4.jpg" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+
+                                <h6>more</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item-2" onclick="document.location='details.html'">
+                            <img src="images/our-product/pro-1.jpg" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+
+                                <h6>more</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item-2" onclick="document.location='details.html'">
+                            <img src="images/our-product/pro-2.jpg" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+
+                                <h6>more</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item-2" onclick="document.location='details.html'">
+                            <img src="images/our-product/pro-3.jpg" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+
+                                <h6>more</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--New Arrival-->
+    <div class="new-arriaval section-padding">
+        <div class="container">
+            <div class="section-title d-flex justify-content-between">
+                <h2>new arrival</h2>
+                <a href="#">view all <i class="fas fa-chevron-right ml-2"></i></a>
+            </div>
+            <div class="product-cover">
+                <div class="row">
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item" onclick="document.location='details.html'">
+                            <img src="images/new-arrival/pro-1.png" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+                                <h5>Price in BDT (Excluding Vat)</h5>
+                                <h6>50,100.00</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item" onclick="document.location='details.html'">
+                            <img src="images/new-arrival/pro-2.png" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+                                <h5>Price in BDT (Excluding Vat)</h5>
+                                <h6>50,100.00</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item" onclick="document.location='details.html'">
+                            <img src="images/new-arrival/pro-3.png" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+                                <h5>Price in BDT (Excluding Vat)</h5>
+                                <h6>50,100.00</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Product Item-->
+                    <div class="col-md-3">
+                        <div class="product-item" onclick="document.location='details.html'">
+                            <img src="images/new-arrival/pro-4.png" class="img-fluid" alt="product" />
+                            <div class="product-content">
+                                <h4>Sofa</h4>
+                                <p>Model: SEO-102</p>
+                            </div>
+                            <div class="product-more">
+                                <h5>Price in BDT (Excluding Vat)</h5>
+                                <h6>50,100.00</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--service-->
+    <div class="service section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-type">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h3>best product</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-type">
+                        <i class="fas fa-check"></i>
+                        <h3>best product</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-type">
+                        <i class="fas fa-headset"></i>
+                        <h3>best product</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-cover">
+                <div class="row">
+                    <!--Footer Item-->
+                    <div class="col-md-2">
+                        <div class="footer-item">
+                            <h3>information</h3>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Footer Item-->
+                    <div class="offset-md-1 col-md-1">
+                        <div class="footer-item">
+                            <h3>extras</h3>
+                            <ul>
+                                <li><a href="#">Brands</a></li>
+                                <li><a href="#">Gift Vouchers</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Specials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Footer Item-->
+                    <div class="offset-md-1 col-md-2">
+                        <div class="footer-item">
+                            <h3>Contact Us</h3>
+                            <ul>
+                                <li>Phone : +88 02 883 5550</li>
+                                <li>FAX : +88 02 882 0256</li>
+                                <li>E-mail : rfl@prangroup.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Footer Item-->
+                    <div class="col-md-2">
+                        <div class="footer-item">
+                            <h3>Customer Service</h3>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Footer Item-->
+                    <div class="col-md-2">
+                        <div class="footer-item">
+                            <h3>follow us</h3>
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook mr-3 fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Copywright-->
+    <div class="copywright">
+        <div class="container">
+            <div class="copywright-cover">
+                <p>&copy; 2016 FURNITURE STORE. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/xzoom.min.js"></script>
     <script src="js/custom.js"></script>
-  </body>
+</body>
+
 </html>
